@@ -1,0 +1,22 @@
+.statistics {
+    width: 500px;
+    margin: 50px auto 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+  }
+  .titleWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    background-color: var(--secondary-bacground-color);
+  }
+  .title {
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: red;
+  }
