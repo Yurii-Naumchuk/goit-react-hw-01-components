@@ -6,7 +6,7 @@
   }
   .tableRowElem:first-child {
     text-align: start;
-    padding-left: 30px;
+    padding-left: 28px;
   }
   .tableRowElem:not(:last-child) {
     border-right: 1px solid var(--border-color);
