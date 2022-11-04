@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Yurii-Naumchuk/goit-react-hw-01-components.git/static/css/main.069eeab5.css",
-    "main.js": "/Yurii-Naumchuk/goit-react-hw-01-components.git/static/js/main.22c4c21d.js",
-    "index.html": "/Yurii-Naumchuk/goit-react-hw-01-components.git/index.html",
-    "main.069eeab5.css.map": "/Yurii-Naumchuk/goit-react-hw-01-components.git/static/css/main.069eeab5.css.map",
-    "main.22c4c21d.js.map": "/Yurii-Naumchuk/goit-react-hw-01-components.git/static/js/main.22c4c21d.js.map"
+    "main.css": "/Yurii-Naumchuk/goit-react-hw-01-components/static/css/main.069eeab5.css",
+    "main.js": "/Yurii-Naumchuk/goit-react-hw-01-components/static/js/main.22c4c21d.js",
+    "index.html": "/Yurii-Naumchuk/goit-react-hw-01-components/index.html",
+    "main.069eeab5.css.map": "/Yurii-Naumchuk/goit-react-hw-01-components/static/css/main.069eeab5.css.map",
+    "main.22c4c21d.js.map": "/Yurii-Naumchuk/goit-react-hw-01-components/static/js/main.22c4c21d.js.map"
   },
   "entrypoints": [
     "static/css/main.069eeab5.css",
