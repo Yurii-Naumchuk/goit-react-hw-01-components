@@ -1,12 +1,12 @@
-import PropTypes from 'prop-types';
-import css from './StatList.module.css';
-import  StatItem  from '../StatItem/StatItem';
+import PropTypes from "prop-types"
+import css from "./StatList.module.css"
+import StatItem from "../StatItem/StatItem"
 
-export default function StatList  ({ statObjects }) {
-  const countItems = statObjects.length;
+export default function StatList({ statObjects }) {
+  const countItems = statObjects.length
   return (
     <ul className={css.statList}>
-      {statObjects.map(statObject => (
+      {statObjects.map((statObject) => (
         <li
           key={statObject.id}
           className={css.item}
@@ -19,16 +19,16 @@ export default function StatList  ({ statObjects }) {
         </li>
       ))}
     </ul>
-  );
-};
+  )
+}
 
 function getRandomHexColor() {
-  const red = Math.round(Math.random(0, 1) * 255);
-  const green = Math.round(Math.random(0, 1) * 255);
-  const blue = Math.round(Math.random(0, 1) * 255);
-  return `rgb(${red},${green},${blue})`;
+  const red = Math.round(Math.random(0, 1) * 255)
+  const green = Math.round(Math.random(0, 1) * 255)
+  const blue = Math.round(Math.random(0, 1) * 255)
+  return `rgb(${red},${green},${blue})`
 }
 
 StatList.propTypes = {
   statObjects: PropTypes.array.isRequired,
-};
+}

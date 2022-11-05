@@ -1,8 +1,8 @@
-import PropTypes from 'prop-types';
-import  StatList from './StatList/StatList';
-import css from './Statistics.module.css';
+import PropTypes from "prop-types"
+import StatList from "./StatList/StatList"
+import css from "./Statistics.module.css"
 
-export default function Statistics  ({ title, stats }) {
+export default function Statistics({ title, stats }) {
   return (
     <section className={css.statistics}>
       {title && (
@@ -12,10 +12,10 @@ export default function Statistics  ({ title, stats }) {
       )}
       <StatList statObjects={stats} />
     </section>
-  );
-};
+  )
+}
 
 Statistics.propTypes = {
   title: PropTypes.string,
   stats: PropTypes.array.isRequired,
-};
+}

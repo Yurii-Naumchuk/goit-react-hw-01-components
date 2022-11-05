@@ -1,11 +1,11 @@
-import PropTypes from 'prop-types';
-import css from './FriendList.module.css';
-import { FriendListItem } from './FriendListItem/FriendListItem';
+import PropTypes from "prop-types"
+import css from "./FriendList.module.css"
+import { FriendListItem } from "./FriendListItem/FriendListItem"
 
-export default function FriendList ({ friends }) {
+export default function FriendList({ friends }) {
   return (
     <ul className={css.friendList}>
-      {friends.map(friend => (
+      {friends.map((friend) => (
         <FriendListItem
           key={friend.id}
           avatar={friend.avatar}
@@ -15,9 +15,9 @@ export default function FriendList ({ friends }) {
         />
       ))}
     </ul>
-  );
-};
+  )
+}
 
 FriendList.propTypes = {
   friends: PropTypes.array.isRequired,
-};
+}
